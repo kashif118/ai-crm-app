@@ -1,0 +1,11 @@
+# Normalise line endings so the repo is identical on Windows, macOS and Linux
+# (and so CI diffs are not full of phantom whitespace changes).
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
